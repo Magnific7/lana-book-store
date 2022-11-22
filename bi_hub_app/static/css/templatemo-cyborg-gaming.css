@@ -57,7 +57,7 @@ html, body {
 }
 
 a {
-	color: #fff;
+	color: #03529c;
   text-decoration: none !important;
 }
 a:hover {
@@ -99,7 +99,7 @@ body {
 
 body .page-content {
   margin-top: 110px;
-  background-color: #03529c;
+  /* background-color: #03529c; */
   padding: 60px;
   border-radius: 23px;
 }
@@ -319,22 +319,23 @@ Header Style
 }
 
 .header-area {
-  background-color: transparent;
-  position: absolute;
+  background-color: #03529c;
+  position: fixed;
   height: 70px;
-  top: 15px;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  /* z-index: 100;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
-  transition: all .5s ease 0s;
+  transition: all .5s ease 0s; */
+  overflow: hidden;
+  width: 100%;
 }
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
   display: flex;
   padding: 15px 0px;
   border-radius: 50px;
@@ -342,31 +343,6 @@ Header Style
 
 .background-header .main-nav {
   padding: 0px;
-  background-color: transparent;
-}
-
-.header-area .main-nav #search {
-  position: relative;
-}
-
-.header-area .main-nav #search input {
-  background-color: #27292a;
-  height: 46px;
-  border-radius: 23px;
-  border: none;
-  color: #666;
-  font-size: 14px;
-  padding: 0px 15px 0px 45px;
-}
-
-.header-area .main-nav #search i {
-  position: absolute;
-  color: #666;
-  left: 20px;
-  top: 16px;
-  width: 18px;
-  height: 18px;
-  font-size: 16px;
 }
 
 .header-area .main-nav .logo {
@@ -733,6 +709,7 @@ Header Style
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+
 }
 
 /* 
@@ -742,7 +719,7 @@ Banner Style
 */
 
 .main-banner {
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(3,82,156,0.3);
   background-position: center center;
   background-size: cover;
   min-height: 380px;
@@ -756,10 +733,12 @@ Banner Style
   font-weight: 400;
   margin-bottom: 25px;
   position: relative;
+  text-align: center;
+
 }
 
 .main-banner h4 {
-  font-size: 45px;
+  font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
@@ -776,15 +755,15 @@ Most Popular Style
 */
 
 .most-popular {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   padding: 30px;
-  background-color: rgba(255,255,255,0.6);
+  /* background-color: rgba(255,255,255,0.6); */
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: rgba(3,82,156,0.3);
-  padding: 30px 15px;
+  background-color: rgba(255,255,255,0.3);
+  padding: 15px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
 }
@@ -803,6 +782,7 @@ Most Popular Style
 
 .most-popular .item h4 {
   font-size: 15px;
+  color: black;
   margin-top: 20px;
   margin-bottom: 0px;
   display: inline-block;
