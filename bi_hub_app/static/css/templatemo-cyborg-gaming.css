@@ -93,14 +93,14 @@ Global Styles
 */
 html,
 body {
-  background: #f5f7ff;
+  background: white;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
-  margin-top: 110px;
+  margin-top: 150px;
   /* background-color: #03529c; */
-  padding: 60px;
+  /* padding: 60px; */
   border-radius: 23px;
 }
 
@@ -330,7 +330,7 @@ Header Style
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s; */
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
 }
 
@@ -719,17 +719,17 @@ Banner Style
 */
 
 .main-banner {
-  background-color: rgba(3,82,156,0.3);
+  /* background-color: rgba(3,82,156,0.3); */
   background-position: center center;
   background-size: cover;
   min-height: 380px;
   border-radius: 23px;
-  padding: 80px 60px;
+  /* padding: 80px 60px; */
 }
 
 .main-banner h6 {
   font-size: 20px;
-  color: black;
+  color: #fff;
   font-weight: 400;
   margin-bottom: 25px;
   position: relative;
@@ -741,6 +741,7 @@ Banner Style
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 25px;
+  color:black
 }
 
 .main-banner h4 em {
@@ -762,10 +763,11 @@ Most Popular Style
 }
 
 .most-popular .item {
-  background-color: rgba(255,255,255,0.3);
+  /* background-color: rgba(255,255,255,0.3); */
+  /* background-color: rgba(3,82,156,0.3); */
   padding: 15px 15px;
   border-radius: 23px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .most-popular .item .item {
@@ -777,7 +779,7 @@ Most Popular Style
 
 .most-popular .item img {
   border-radius: 10px;
-  height:200px;
+  height:315px;
 }
 
 .most-popular .item h4 {
