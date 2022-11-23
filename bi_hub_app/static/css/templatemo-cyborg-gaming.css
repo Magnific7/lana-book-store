@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -47,7 +47,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   background-color: #1e1e1e;
   font-size: 16px;
@@ -94,7 +94,7 @@ Global Styles
 html,
 body {
   background: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body .page-content {
@@ -319,7 +319,7 @@ Header Style
 }
 
 .header-area {
-  background-color: #03529c;
+  /* background-color: #03529c; */
   position: fixed;
   height: 70px;
   top: 0;
@@ -356,17 +356,15 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 191px;
-  margin-left:-160px
+  width: 200px;
+  margin-left:36px
+  
 }
 
 .background-header .main-nav .logo {
   margin-top: 8px;
 }
 
-.background-header .main-nav .logo img {
-  width: 180px;
-}
 
 .header-area .main-nav .nav {
   display: inline-flex;
@@ -562,6 +560,8 @@ Header Style
 
 .header-area.header-sticky {
   min-height: 70px;
+  background-color: #03529c;
+  position:fixed !important;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -583,7 +583,8 @@ Header Style
     top: 0;
   }
   .header-area .main-nav {
-    background-color: transparent;
+    /* background-color: #03529c; */
+    width:100%;
     border-radius: 0px;
   }
   .header-area .main-nav .nav {
@@ -592,8 +593,8 @@ Header Style
   }
   .header-area .main-nav .logo {
     position: absolute;
-    left: 30px;
     top: 15px;
+
   }
   .background-header .main-nav .logo {
     top: 0px;
@@ -616,7 +617,7 @@ Header Style
   }
   .header-area {
     background-color: #f7f7f7;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
     height: 80px;
     box-shadow: none;
     text-align: center;
@@ -780,7 +781,7 @@ Most Popular Style
 
 .most-popular .item img {
   border-radius: 10px;
-  height:315px;
+  height:80%;
 }
 
 .most-popular .item h4 {
