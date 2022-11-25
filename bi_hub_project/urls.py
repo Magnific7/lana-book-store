@@ -19,6 +19,6 @@ from bi_hub_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.Index, name='Index'),
+    path('BI_HUB/', include('bi_hub_app.urls'))
 ]
  
