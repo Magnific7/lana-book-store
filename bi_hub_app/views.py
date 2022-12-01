@@ -6,3 +6,6 @@ def Index(request):
 
 def Analytic(request):
     return render(request, 'analytics-dashboards.html', {})
+
+def CrosslingApp(request):
+    return render(request, 'cross-selling.html', {})
