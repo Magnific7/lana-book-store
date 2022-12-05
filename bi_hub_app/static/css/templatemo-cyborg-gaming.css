@@ -616,7 +616,7 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color: #03529c!important;
+    background-color: #f7f7f7;
     /* padding: 0px 15px; */
     height: 80px;
     box-shadow: none;
@@ -899,4 +899,53 @@ body {
   .gaming-library .item ul li {
     width: 16%;
   }
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 66%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.middle-recon{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item:hover img {
+  opacity: 0.8
+}
+
+.item:hover .middle {
+  opacity: 1;
+}
+
+.item:hover .middle-recon {
+  opacity: 1;
+}
+
+.text {
+  background-color: #03529c;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius:10px;
+}
+.text a{
+  color: white !important;
+}
+.text a:hover{
+  color:  #e3972f !important;
 }
