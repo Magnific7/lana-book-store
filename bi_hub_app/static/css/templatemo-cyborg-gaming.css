@@ -949,3 +949,24 @@ body {
 .text a:hover{
   color:  #e3972f !important;
 }
+
+.modal-body {
+  background-color: #03529c;
+  border-color: #03529c;
+}
+
+.intro-1 {
+  font-size: 20px
+}
+
+.close {
+  color: #fff
+}
+
+.close:hover {
+  color: #fff
+}
+
+.intro-2 {
+  font-size: 13px
+}
