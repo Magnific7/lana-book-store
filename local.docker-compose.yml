@@ -17,5 +17,6 @@ services:
       - DATABASE_HOST=$DATABASE_HOST
       - ALLOWED_HOSTS=$ALLOWED_HOSTS
 
+
     extra_hosts:
       - "host.docker.internal:host-gateway"

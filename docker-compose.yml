@@ -15,4 +15,5 @@ services:
       - DATABASE_HOST=$DATABASE_HOST
       - ALLOWED_HOSTS=$ALLOWED_HOSTS
 
+
     restart: always
