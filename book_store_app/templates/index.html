@@ -62,14 +62,17 @@
                     <div class="heading-section">
                     <div class="row">
                       <div class="col-lg-4 text-center col-sm-12 col-md-6 mt-3">
-                     
                       </div>
-                      <div class="col-lg-4 text-center col-sm-12 col-md-6 mt-3">
-                      
+                      <div class="col-lg-8 text-center col-sm-12 col-md-6 mt-3">
+                        <ul>
+                          {% for book in books %}
+                          <li><img src="{{ book.image.url }}" alt="{{ book.title }}" width="100"></li>
+
+                              <li>{{ book.title }} by {{ book.author }}</li>
+                          {% endfor %}
+                          </ul>
                       </div>
-                      <div class="col-lg-4 text-center col-sm-12 col-md-6 mt-3">
-               
-                      </div>
+                    
                     </div>
                   </div>
                 </div>
