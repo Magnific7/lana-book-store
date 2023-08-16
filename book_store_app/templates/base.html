@@ -14,13 +14,15 @@
 <link rel="stylesheet" href="{% static 'css/owl.css' %} ">
 <link rel="stylesheet" href="{% static 'css/animate.css' %} ">
 <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<link rel="shortcut icon" href="{%  static  'images/small_logo.jpg'  %}" />
+<link rel="shortcut icon" href="{%  static  'images/small_logo.png'  %}" />
 
 {% endblock %}
 
 </head>
 <body>
 {% block content %} 
+{% include "navbar.html" %}
+
 {% endblock %}
 {% block scripts %}
 <!-- Plugin js for this page -->

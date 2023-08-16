@@ -1,4 +1,4 @@
-"""bi_hub_project URL Configuration
+"""book_store_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from bi_hub_app import views
+from book_store_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('BI_HUB/', include('bi_hub_app.urls'))
+    path('book_store/', include('book_store_app.urls'))
 ]
  
